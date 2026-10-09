@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
